@@ -1,0 +1,42 @@
+* {
+    font-family: 'Roboto Slab', serif;
+}
+.navbar,
+footer {
+    background-color: #323232;
+}
+.container-fluid {
+    background-color: #DDD0C8;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+div.card {
+    background-color: #E3E2DF;
+}
+a.btn {
+    background-color: #323232;
+}
+.anchor {
+    display:block;
+    height:65px; /* this is the height of your header */
+    margin-top:-65px; /* this is again negative value of the height of your header */
+    visibility:hidden;
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+    width: 100% !important;
+}
+a i {
+    font-size: 32px;
+    padding: 5px 8px 0 0;
+}
+@media screen and (max-width: 480px) {
+    * {
+        font-size: 0.9em;
+    }
+}
