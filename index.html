@@ -17,12 +17,11 @@
     <body>
         <!-- Navbar Component -->
         <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
-            <span class="navbar-brand">Keegan Sanctis - Software Developer</span>
+            <span class="navbar-brand">Keegan Sanctis</span>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent" data-toggle="collapse" data-target=".navbar-collapse">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <a class="nav-link text-nowrap" href="#about_me">About Me</a>
@@ -34,13 +33,13 @@
                         <a class="nav-link text-nowrap" href="#certifications">Certifications</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link text-nowrap" href="#summary_of_skills">Summary of Skills</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link text-nowrap" href="#professional_experience">Professional Experience</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-nowrap" href="#project">Project</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-nowrap" href="#summary_of_skills">Summary of Skills</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-nowrap" href="#volunteering">Volunteering</a>
@@ -53,8 +52,11 @@
             <!-- About Me Section -->
             <span class="anchor" id="about_me"></span>
             <div class="row pt-4">
-                <div class="col-md-4 col-12 pr-0 mb-2" style="text-align: center;">
+                <div class="col-md-4 col-12 px-0" style="text-align: center;">
                     <img src="linkedin_photo.jpeg" alt="Picture of Keegan Sanctis" class="img-thumbnail">
+                    <br>
+                    <h4>Keegan Sanctis</h4>
+                    <p class="font-italic typewriter">I'm a <span class="font-italic" id="jobtitles"></span></p>
                 </div>
                 <div class="col-md-8 col-auto">
                     <h4><i class="fa-solid fa-user-graduate"></i> Summary</h4>
@@ -83,7 +85,7 @@
                     <p><span class="font-weight-light font-italic">High School Diploma</span><span class="float-right"><i class="fa-solid fa-calendar"></i> Apr 2012 - May 2018</span></p>
                 </div>
                 <div class="col-12">
-                    <span class="font-weight-bold">Indian English Academy School<span class="float-right"><i class="fa-solid fa-location-dot"></i> Salimya, Kuwait</span></span>
+                    <span class="font-weight-bold">Indian English Academy School<span class="float-right"><i class="fa-solid fa-location-dot"></i> Salmiya, Kuwait</span></span>
                     <p><span class="font-weight-light font-italic">Elementary School</span><span class="float-right"><i class="fa-solid fa-calendar"></i> Apr 2004 - Mar 2012</span></p>
                 </div>
             </div>
@@ -157,6 +159,19 @@
                 </div>
             </div>
             <hr>
+            <!-- Summary of Skills Section -->
+            <span class="anchor" id="summary_of_skills"></span>
+            <div class="row">
+                <div class="col-auto">
+                    <h4><i class="fa-solid fa-database"></i> Summary of Skills</h4>
+                </div>
+                <div class="col-12">
+                    <span class="font-weight-bold">Technical Skills: <span class="font-weight-normal">C++ | C | JavaScript | HTML5 | CSS3 | Angular | React | Bootstrap | Python | Kotlin | SQL | Ionic | Linux</span></span>
+                    <br>
+                    <span class="font-weight-bold">Soft Skills: <span class="font-weight-normal">Effective Communication | Team Collaboration | Problem-Solving | Detail-Oriented | Adaptability</span></span>
+                </div>
+            </div>
+            <hr>
             <!-- Professional Experience Section -->
             <span class="anchor" id="professional_experience"></span>
             <div class="row">
@@ -171,7 +186,7 @@
                         </a>
                     </div>
                     <div class="col-md-11 col-9">
-                        <div id="carouselProfessionalExperience" class="carousel slide" data-interval="false" data-ride="carousel">
+                        <div id="carouselProfessionalExperience" class="carousel slide" data-interval="false" data-ride="carousel" data-wrap="false">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <span class="font-weight-bold">RoyalTech Electrical</span>
@@ -243,19 +258,6 @@
                 </div>
             </div>
             <hr>
-            <!-- Summary of Skills Section -->
-            <span class="anchor" id="summary_of_skills"></span>
-            <div class="row">
-                <div class="col-auto">
-                    <h4><i class="fa-solid fa-database"></i> Summary of Skills</h4>
-                </div>
-                <div class="col-12">
-                    <span class="font-weight-bold">Technical Skills: <span class="font-weight-normal">C++ | C | JavaScript | HTML5 | CSS3 | Angular | React | Bootstrap | Python | Kotlin | SQL | Ionic | Linux</span></span>
-                    <br>
-                    <span class="font-weight-bold">Soft Skills: <span class="font-weight-normal">Effective Communication | Team Collaboration | Problem-Solving | Detail-Oriented | Adaptability</span></span>
-                </div>
-            </div>
-            <hr>
             <!-- Volunteering Section -->
             <span class="anchor" id="volunteering"></span>
             <div class="row">
@@ -278,7 +280,7 @@
                     <br>
                     <span class="font-weight-light font-italic">Mentor</span>
                     <br>
-                    <span><i class="fa-solid fa-angle-right"></i> Volunteered as an altar server and a mentor in the altar servers ministry, providing training and guidance to newcomers, ensuring they understand their responsibilities and successfully become inducted into the ministry.</span>
+                    <span><i class="fa-solid fa-angle-right"></i> Volunteered as an altar server and a mentor in the altar servers ministry, providing training and guidance to newcomers, ensuring they understand their responsibilities and successfully get inducted into the ministry.</span>
                     <br>
                     <br>
                 </div>
@@ -304,16 +306,59 @@
         </div>
         <!-- Footer Section -->
         <footer class="text-center text-white">
+            <span class="footer-content">Connect - </span>
             <span><a href="https://www.linkedin.com/in/keegan-sanctis" target="_blank"><i class="fa-brands fa-linkedin"></i></a> 
                 <a href="https://www.instagram.com/keegan_sanctis?igsh=Mmo4eXVxbGxzemk0&utm_source=qr" target="_blank"><i class="fa-brands fa-square-instagram"></i></a> 
                 <a href="https://www.facebook.com/keegan.sanctis.3?mibextid=LQQJ4d" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
             </span>
             <br>
-            <span>Web Portfolio | Keegan Sanctis | 2024 &copy;</span>
+            <span class="footer-content">Web Portfolio | Keegan Sanctis | 2024 &copy;</span>
         </footer>
         <!-- Bootstrap's JavaScript Files -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <!-- Typewriter and Delete Typewriter Script -->
+        <script>
+            const jobTitles = ["Software Developer", "Software Engineer", "Frontend Developer", "Backend Developer", "Fullstack Developer"];
+            let i = 0;
+            let timer;
+
+            function typingEffect() {
+                let jobTitle = jobTitles[i].split("");
+                var loopTyping = function() {
+                    if (jobTitle.length > 0) {
+                        document.getElementById('jobtitles').innerHTML += jobTitle.shift();
+                    } else {
+                        deletingEffect();
+                        return false;
+                    }
+                    timer = setTimeout(loopTyping, 150);
+                }
+                loopTyping();
+            };
+
+            function deletingEffect() {
+                let jobTitle = jobTitles[i].split("");
+                var loopDeleting = function() {
+                    if (jobTitle.length > 0) {
+                        jobTitle.pop();
+                        document.getElementById('jobtitles').innerHTML = jobTitle.join("");
+                    } else {
+                        if (jobTitles.length > (i + 1)) {
+                            i++;
+                        } else {
+                            i = 0;
+                        }
+                        typingEffect();
+                        return false;
+                    }
+                    timer = setTimeout(loopDeleting, 100);
+                }
+                loopDeleting();
+            };
+
+            typingEffect();
+        </script>
     </body>
 </html>
