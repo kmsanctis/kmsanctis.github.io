@@ -1,4 +1,4 @@
-const jobTitles = ["Software Developer", "Software Engineer", "Frontend Developer", "Backend Developer", "Fullstack Developer"];
+const jobTitles = ["Software Developer", "Software Engineer", "Frontend Developer", "Backend Developer", "Programmer"];
 let i = 0;
 let timer;
 
@@ -11,7 +11,7 @@ function typingEffect() {
             deletingEffect();
             return false;
         }
-        timer = setTimeout(loopTyping, 150);
+        timer = setTimeout(loopTyping, 225);
     }
     loopTyping();
 };
@@ -31,7 +31,7 @@ function deletingEffect() {
             typingEffect();
             return false;
         }
-        timer = setTimeout(loopDeleting, 100);
+        timer = setTimeout(loopDeleting, 150);
     }
     loopDeleting();
 };

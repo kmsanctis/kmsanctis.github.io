@@ -43,4 +43,10 @@ a i {
     * {
         font-size: 0.921em;
     }
+    .anchor {
+        display: block;
+        height: 260px; /* this is the height of your header */
+        margin-top: -260px; /* this is again negative value of the height of your header */
+        visibility: hidden;
+    }
 }
