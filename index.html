@@ -48,7 +48,7 @@
             </div>
         </nav>
         <!-- Main Content -->
-        <div class="container-fluid"">
+        <div class="container-fluid">
             <!-- About Me Section -->
             <span class="anchor" id="about_me"></span>
             <div class="row pt-4">
@@ -166,8 +166,8 @@
                     <h4><i class="fa-solid fa-database"></i> Summary of Skills</h4>
                 </div>
                 <div class="col-12">
-                    <span class="font-weight-bold">Technical Skills: <span class="font-weight-normal">C++ | C | JavaScript | HTML5 | CSS3 | Angular | React | Bootstrap | Python | Kotlin | SQL | Ionic | Linux</span></span>
-                    <br>
+                    <p class="font-weight-bold">Technical Skills (Programming): <span class="font-weight-normal">C++ | C | JavaScript | HTML5 | CSS3 | Angular | React | Bootstrap | Python | Kotlin | SQL | Ionic | Linux</span></p>
+                    <p class="font-weight-bold">Technical Skills (Development): <span class="font-weight-normal">Object-Oriented Programming (OOP) | User Interface (UI) Development | Database Management | Version Control (Git) | Continuous Integration (CI) | Agile Methodologies | Software Quality Assurance (QA) | Automated Testing | Debugging</span></p>
                     <span class="font-weight-bold">Soft Skills: <span class="font-weight-normal">Effective Communication | Team Collaboration | Problem-Solving | Detail-Oriented | Adaptability</span></span>
                 </div>
             </div>
@@ -186,7 +186,15 @@
                         </a>
                     </div>
                     <div class="col-md-11 col-9 px-0">
-                        <div id="carouselProfessionalExperience" class="carousel slide" data-interval="false" data-ride="carousel" data-wrap="false">
+                        <div id="carouselProfessionalExperience" class="carousel slide" data-interval="false" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselProfessionalExperience" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselProfessionalExperience" data-slide-to="1"></li>
+                                <li data-target="#carouselProfessionalExperience" data-slide-to="2"></li>
+                                <li data-target="#carouselProfessionalExperience" data-slide-to="3"></li>
+                                <li data-target="#carouselProfessionalExperience" data-slide-to="4"></li>
+                                <li data-target="#carouselProfessionalExperience" data-slide-to="5"></li>
+                            </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <span class="font-weight-bold">RoyalTech Electrical</span>
@@ -243,6 +251,7 @@
                     </div>
                 </div>
             </div>
+            <br>
             <hr>
             <!-- Project Section -->
             <span class="anchor" id="project"></span>
@@ -318,5 +327,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
         <!-- Typewriter and Delete Typewriter Script -->
         <script src="./scripts/typewriter.js"></script>
+        <!-- Carousel Arrows Display Script -->
+        <script src="./scripts/carouselArrows.js"></script>
     </body>
 </html>

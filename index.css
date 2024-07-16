@@ -32,6 +32,10 @@ div.card {
     filter: invert(100%);
     width: 100% !important;
 }
+.carousel-indicators {
+    bottom: -2.4rem !important;
+    filter: invert(100%);
+}
 .footer-content {
     font-size: 16px;
 }
